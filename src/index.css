@@ -121,3 +121,28 @@ h4{
     background-color: var(--clr-primary-1);
     color: var(--clr-primary-5);
 }
+
+.item{
+    background-color: var(--clr-white);
+    display: flex;
+    justify-content: space-between;
+    max-width: var(--fixed-width);
+    margin: 2rem auto;
+    align-items: center;
+    border-radius: var(--radius);
+}
+
+.item button{
+    background: transparent;
+    border-color: transparent;
+    color: var(--clr-primary-5);
+    letter-spacing: var(--spacing);
+    cursor: pointer;
+}
+
+.item{
+    padding: 1rem 2rem;
+}
+.item h4{
+    margin-bottom: 0;
+}
