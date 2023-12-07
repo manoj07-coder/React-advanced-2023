@@ -1,10 +1,10 @@
 import React from "react";
-import ErrorExample from "../tutorial/1-useState/1-error-example";
+import ReactRouterSetup from "../tutorial/11-reactRouter";
 
 function App(){
   return (
     <div className="container">
-      <ErrorExample />
+      <ReactRouterSetup />
     </div>
   );
 }
