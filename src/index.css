@@ -179,3 +179,80 @@ h4{
     color: var(--clr-grey-5);
     text-transform: capitalize;
 }
+
+.form{
+    background:var(--clr-white);
+    max-width: var(--fixed-width);
+    margin: 0 auto;
+    margin-bottom: 4rem;
+    padding: 1rem 2rem;
+    border-radius: var(--radius);
+}
+
+.form input {
+    background: var(--clr-grey-10);
+    border-color: transparent;
+    border-radius: var(--radius);
+    padding: 0.25rem o.5rem;
+}
+
+.form-control{
+    margin: 0.5rem 0;
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    align-items: center;
+}
+
+.form button {
+    display: inline-block;
+    background: var(--clr-black);
+    color: var(--clr-white);
+    border-color: transparent;
+    margin-top: 1rem;
+    letter-spacing: var(--spacing);
+    padding: 0.15rem 0.25rem;
+    text-transform: capitalize;
+    border-radius: var(--radius);
+    cursor: pointer;
+}
+
+.modal {
+    position: absolute;
+    top: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--clr-white);
+    display: inline-block;
+    padding: 0.25rem 1rem;
+    border-radius: var(--radius);
+    text-transform: capitalize;
+}
+
+.modal p{
+    margin-bottom: 0;
+    color: var(--clr-red-dark);
+}
+
+.products {
+    margin: 4rem 0;
+    display: grid;
+    gap: 2rem;
+}
+
+.product {
+    background: var(--clr-white);
+    border-radius: var(--radius);
+}
+
+.product img{
+    border-top-left-radius: var(--radius);
+    border-top-right-radius: var(--radius);
+
+    width: 100%;
+    height: 15rem;
+    object-fit: cover;
+}
+
+.product h4{
+    margin-top: 1rem;
+}
