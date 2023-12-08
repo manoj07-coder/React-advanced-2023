@@ -1,5 +1,5 @@
 import React from "react";
-import { Routes ,Route, Switch } from "react-router-dom";
+import { BrowserRouter,Routes ,Route} from "react-router-dom";
 
 import Home from "./home";
 import About from "./about";
@@ -12,14 +12,16 @@ import Navbar from "./Nav";
 
 function ReactRouterSetup(){
     return (
-        <div>
+        <BrowserRouter>
       <Routes>
         <Route
             path='/'
-            element={<Home />}
+            element={<div>
+                <h2>Hello World</h2>
+            </div>}
        />
       </Routes>
-        </div>
+        </BrowserRouter>
     )
 }
 
