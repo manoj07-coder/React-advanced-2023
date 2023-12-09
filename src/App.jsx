@@ -1,10 +1,10 @@
 import React from "react";
-import ReactRouterSetup from "../tutorial/11-reactRouter";
+import Index from "../tutorial/12-memo-usecallback-usememo";
 
 function App(){
   return (
     <div className="container">
-      <ReactRouterSetup />
+      <Index />
     </div>
   );
 }
