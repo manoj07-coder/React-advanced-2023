@@ -44,7 +44,6 @@ const BigList = React.memo(({products, AddtoCart})=>{
         console.log('Big list is called')
     })
 
-
     return (
         <section className="products">
             {
